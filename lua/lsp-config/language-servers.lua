@@ -45,3 +45,28 @@ require('lspconfig')['eslint'].setup{
     capabilities = capabilities,
     flags = lsp_flags,
 }
+require('lspconfig')['dockerls'].setup{
+    on_attach = on_attach,
+    capabilities = capabilities,
+    flags = lsp_flags,
+}
+require('lspconfig')['gopls'].setup{
+    on_attach = on_attach,
+    capabilities = capabilities,
+    flags = lsp_flags,
+}
+require('lspconfig')['jsonls'].setup{
+    on_attach = on_attach,
+    capabilities = capabilities,
+    flags = lsp_flags,
+}
+require('lspconfig')['tailwindcss'].setup{
+    on_attach = on_attach,
+    capabilities = capabilities,
+    flags = lsp_flags,
+}
+require('lspconfig')['yamlls'].setup{
+    on_attach = on_attach,
+    capabilities = capabilities,
+    flags = lsp_flags,
+}
