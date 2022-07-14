@@ -4,6 +4,9 @@ local opts = { noremap = true, silent = true}
 vim.g.mapleader = ' '
 
 map('n', '<leader>b', ':NvimTreeToggle<CR>', opts)
+map('n', '<leader>gb', '<C-^><CR>', opts)
+map('n', '<C-L>', '<C-W><C-L>', opts)
+map('n', '<C-H>', '<C-W><C-H>', opts)
 --barbar mappings
 ---- Move to previous/next
 map('n', '<A-,>', '<Cmd>BufferPrevious<CR>', opts)
