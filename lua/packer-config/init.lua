@@ -3,6 +3,9 @@ return require'packer'.startup(function()
     use 'kyazdani42/nvim-web-devicons'
     use 'EdenEast/nightfox.nvim'
     use 'kyazdani42/nvim-tree.lua'
+    use 'rcarriga/nvim-notify'
+    use 'nvim-lualine/lualine.nvim'
+    use 'romgrk/barbar.nvim'
 
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin

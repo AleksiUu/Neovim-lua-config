@@ -1,5 +1,7 @@
 local set = vim.opt
 
+vim.notify = require("notify")
+
 set.expandtab = true
 set.smarttab = true
 set.shiftwidth = 4
@@ -21,3 +23,4 @@ set.relativenumber = true
 set.cursorline = true
 
 set.hidden = true
+set.completeopt = 'menuone,noselect'
