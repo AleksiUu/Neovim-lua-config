@@ -6,7 +6,9 @@ return require'packer'.startup(function()
     use 'rcarriga/nvim-notify'
     use 'nvim-lualine/lualine.nvim'
     use 'romgrk/barbar.nvim'
+    use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 
+    --LSP-plugins
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
     use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
