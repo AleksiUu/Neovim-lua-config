@@ -9,6 +9,7 @@ return require'packer'.startup(function()
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
     use { 'nvim-telescope/telescope.nvim', tag = '0.1.0', requires = { {'nvim-lua/plenary.nvim'} } }
     use 'tpope/vim-fugitive'
+    use 'gpanders/editorconfig.nvim'
 
     --LSP-plugins
     use 'neovim/nvim-lspconfig'
