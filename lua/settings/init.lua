@@ -27,3 +27,6 @@ set.cursorline = true
 
 set.hidden = true
 set.completeopt = 'menuone,noselect'
+
+set.updatetime = 50
+set.shortmess +=c
